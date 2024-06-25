@@ -30,3 +30,4 @@ setuptools != 60.9.0; python_version < '3.8'
 virtualenv
 watchfiles
 respx
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
